@@ -2,3 +2,27 @@ ul .search-problem-list {
   color: orange;
   font-size: 19px;
 }
+.Card {
+  height: 750px;
+  width: 300px;
+  box-shadow: "0 4px 9px black";
+  background-color: transparent;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  font-size: 15px !important;
+}
+
+.Card .product-image {
+  width: 100% !important;
+  height: 300px;
+  border-radius: 25px;
+  filter: blur(0) !important;
+}
+.alert {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+}
